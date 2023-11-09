@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Projects</title>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url('pink.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100vh;
+        }
+      
+         nav{
+           background-color: rgba(169, 165, 168, 0.816);
+           padding: 10px;
+            padding-top: 12px;
+            padding-left: 730px;
+
+           
+
+         }
+         nav a{
+          padding-top: -20px;
+          text-decoration: none;
+          margin: 0 3px;
+          font-size: 22px;
+          color: black;
+          }
+          nav a:hover{
+            color:#2b11ee;
+          }
+          #pro{
+            margin-left: 30px;
+            margin-bottom: -15px;
+            font-size: 45px;
+          }
+          
+
+
+          
+
+          #one{
+           
+           
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 30px;
+            font-size: 30px;
+           
+          }
+          #two{
+           
+            margin-top: 50px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            font-size: 30px;
+
+           }
+
+          footer{
+            padding: 10px;
+       background-color: rgba(172, 166, 171, 0.915);
+        margin-bottom: -20px;
+        padding-left: 1350px;
+        padding-top: 10px;
+       
+       }
+       footer a{
+       
+        text-decoration: none;
+        color: black;
+        font-size: 27px;
+       }
+       footer a:hover{
+        color: white;
+       }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" > Home </a>
+        <a href="About1.html" >About me </a>
+        <a href="Education1.html" > Education</a>
+         <a href="projects1.html" >Projects </a>
+            
+         <a href="certificates1.html" >Certificates</a>
+          <a href="Achievements1.html" >Achievements</a>
+           <a  href="contact1.html" >Contact me</a>
+        </nav>
+    
+        <h1 id="pro"  >Projects</h1>
+      <section id="one">
+     
+      <fieldset>
+        
+     <h2 style="color: #1450A3;"><i>Ball Shooter</i></h2>
+     <p >A project in association with JED-I(Joy of Engineering,Design and innivation) involving development of a fully automated ball shooter. <br>
+        Creating a ball shooter project involves combining hardware and software to control a mechanism that launches balls.Here's a brief overview: <br>
+        <h3>Hardware:</h3>
+        1. <b>Arduino Uno:</b> The brain of the project, responsible for controlling the shooter mechanism. <br>
+        2. <b>Motor/Actuator:</b> To power the ball shooter.It could be a servo motor or a DC motor, depending on the design. <br>
+        3. <b>Trigger Mechanism:</b> A mechanism to release or launch the ball.This could be a sewrvo arm, a solenoid, or any other suitable mechanism. <br>
+        4. <b>Sensor(optional):</b> You might include sensors like an infrared sensor or a button to initiate the launching process. <br> <br>
+
+        <h3>Software:</h3>
+        1. <b>Arduino IDE:</b> Write the code for your project in the Arduino Integrated Development Environment. <br>
+        2. <b>Programming Language:</b> Use Arduino programming language (based on C/C++) to control the behaviour of the ball shooter.
+           You'll need to write code to activate the motor and trigger mechanism. <br>
+
+         The shooter would detect the aim in one dimension and change the speed of the motor accordingly to shoot the ball. <br> <br>
+
+                <h3>Steps:</h3>
+                1. <b>Connect Hardware:</b> Wire up the Arduino, motor, trigger mechanism, and any sensors. Ensure everything is connected correctly. <br>
+                2. <b>Write Code:</b> Develop the Arduino code to control the motor and trigger mechanism.
+                You'll define how the system responds to inputs from sensors or manual triggers. <br>
+                3. <b>Upload Code:</b> Use the Arduino IDE to upload your code to the Arduino Uno. <br>
+                4. <b>Test:</b> Safely test your ball shooter.Make sure it launches balls as intended without any issues. <br>
+                5. <b>Iterate and Refine:</b> Based on testing, refine your code and hardware connections if needed.
+                Iterate until you achieve the desired performance. <br> <br>
+
+                This project combines both hardware and software skills, making it a great way to learn about 
+                integrating sensors,motors, and programming in a practical setting.
+
+        
+                 </p> <br>
+                </fieldset>  
+                </section>
+
+
+                <section id="two">
+                  <fieldset>
+
+                  <h2 style="color: #1450A3;"><i>Advanced Digital Signal Processing</i></h2>
+                 <p>Creating a correlation filter for face and signature recognition involves applying 
+                  advanced digital signal processing techniques to enhance accuracy and robustness in pattern matching. <br>
+                  It typically utilises features like Fourier tranforms and convolution to analyse 
+                  and match patterns in face and signature data. <br>
+                  Certainly! In simple terms, a correlation filter in the context of face and signature recognition involves processing digital
+                  signals to identify specific patterns.
+                  For faces, it could mean extracting unique facial features, and for signatures, it might involve capturing distinctive
+                  characteristics of a person's writing style. <br>
+                  Digital signal processing techniques such as Fourier transforms, can help analyse these signals in the frequency domain.
+                  Convolution is often used to compare the input signals with a predefined template, seeking a match.
+                  This coorelation process aids in recognising and verifying faces or signatures based on their unique digital patterns. <br>
+               
+              
+                  Creating correlation filters for face and signature recognition using advanced digital signal processing involves several steps.
+                  Here's a simplified outline: <br> <br>
+                 1. <b>Data Acquisition:</b> <br>
+                 Gather a dataset of face images and signature samples for training and testing. <br>
+                 2. <b>Preprocessing:</b> <br>
+                 Normalize and preprocess the data to enhance feature extraction. <br>
+                 Apply techniques like histogram equalization or image resizing. <br>
+                 3. <b>Feature Extraction:</b> <br>
+                 Extract relevant features from face images and signature samples. <br>
+                  For faces, this might involve facial landmark detection or other feature extraction methods. <br>
+                  For signature, extract unique characteristics related to writing style. <br>
+                 4. <b>Fourier Transform:</b> <br>
+                 Apply Fourier transform to convert the spatial information of the features into frequency domain representations. <br>
+                 This helps in analyzing patterns and correlations more effectively. <br>
+                 5. <b>Filter Design:</b> <br>
+                 Design correlation filters based on the frequency domain representations. <br>
+                 Utilize techniques like minimum average correlation energy(MACE) filters for optimal results. <br>
+                 6. <b>Training:</b> <br>
+                 Train the correlation filters using the preprocessed and feature-extracted data. <br>
+                 The filters should learn to recognize the distinctive patterns associated with faces and signatures. <br>
+                  7. <b>Testing:</b> <br>
+                 Evaluate the performance of the correlation filters on a separate testing dataset. <br>
+                 Measure metrics such as accuracy, precision, and recall. <br>
+                 8. <b>Optimization:</b> <br>
+                 Fine-tune the correlation filters and adjust parameters for optimal performance.. <br>
+                 Address any issues or limitations identified during testing. <br>
+                 9. <b>Integration with System:</b> <br>
+                 Implement the correlation filters within a broader face and signature recognition system. <br>
+                Integrate the filters with mechanisms for real-time processing if needed. <br>
+                10.<b>Validation and Deployment:</b> <br>
+                Validate the system's performance in real-world scenarios.
+                Deploy the system for face and signature recognition applications. <br> <br>
+
+                 Advanced Correlation filter can be used for biometric verification. <br>
+                 In particular we showed that correlation filters can be successfully applied to face verification, finger verification and iris verification or can be used for any biometrics that are in the form of images. <br> 
+                 <b> Software: Correlation Filters for Face and Signature Recognition. </b> <br>
+                 </p>
+
+                  </fieldset>
+                  </section>
+                  
+                 
+
+                  <footer>
+                 <a href="certificates1.html">Next</a>
+                  </footer>
+            
+                 </body>
+                  </html>
